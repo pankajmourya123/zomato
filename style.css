@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    margin: 20px;
+}
+#headimg{
+ height: 50px;
+ border-radius: 50%;
+}
+
+#head{
+    background-image: url('./image/back.avif');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+background-size: cover;
+opacity:90% black;
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#list{
+  display:flex;
+  flex-direction: row;
+ list-style: none;
+
+ 
+}
+
+#list>li{
+    margin: 10px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.mainhead{
+  
+    height:400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainhead>h1{
+    color:white;
+    font-size: 70px;
+    margin: 20px;
+}
+
+.mainhead >h2{
+    color: white;
+    letter-spacing: 3px;
+    margin:20px ;
+}
+
+.mainhead input{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+}
+
+.homeimg{
+ display: flex;
+ justify-content:center;
+ margin-top: 50px;
+}
+.homeimg1{
+    margin-left: 30px;
+}
+
+.homeimg1 img{
+    
+    border-radius:20px 20px 0px 0px;
+    border-bottom: none;
+    height: 150px;
+    width: 350px;
+    transition: ease-out 0.25sec;
+}
+
+.homeimg-text{
+  border: 1px  black;
+    margin-top: -4px;
+    border-top:none; 
+ transition: all ease 0.25;
+}
+
+#img1:hover{
+  
+  transform: scale(1.1);
+}
+#img2:hover{
+  
+  transform: scale(1.1);
+}#img3:hover{
+  
+  transform: scale(1.1);
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+}
+
+.mainimg1{
+    background-image: url('./image/2e82d75d8cd21d26a34cb8ed1447b187.jpg');
+    height: 350px;
+    width: 300px;
+    background-repeat: no-repeat;
+   background-size: cover;
+    border-radius: 20px;
+    margin:10px;
+   
+    opacity: 95%;
+}
+
+.mainimg2{
+    background-image: url('./image/847daaabf4aed1d479b2999a1b5dea9c.jpg');
+    height: 350px;
+    width: 300px;
+    background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 20px;
+   margin: 10px;
+   opacity: 95% black;
+}
+
+.mainimg3{
+    background-image: url('./image/Dining.avif');
+    background-repeat: no-repeat;
+   background-size: cover;
+    height:350px;
+    width:300px;
+    border-radius: 20px;
+    margin: 10px;
+    opacity: 95%;
+}
+
+.mainimg4{
+    background-image: url('./image/0a49445c10e636deb9bd43443133e5e4_1568054421.jpg');
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 10px;
+    opacity: 95%;
+}
+
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .leftFooter > p {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  
+  .midFooter {
+    width: 60%;
+  
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    font-size: 4vmax;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: crimson;
+  }
+  .midFooter > p {
+    max-width: 60%;
+  
+    margin: 1vmax auto;
+  }
+  
+  .rightFooter {
+    width: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.4vmax;
+    text-decoration: underline;
+  }
+  .rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    margin: 0.5vmax;
+  }
